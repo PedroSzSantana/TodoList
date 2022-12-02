@@ -2,6 +2,9 @@ const formulario = document.querySelector('form');
 
 let login_user = 'adm';
 let login_senha = '123';
+const ExibeAcesso = ()=>{
+    alert("User = 'adm', Senha = '123'")
+}
 
 formulario.addEventListener('submit', (evento)=>{
     evento.preventDefault();
@@ -21,3 +24,4 @@ function validacao(){
         sessionStorage.setItem('Logado',false);
     }
 }
+setTimeout(()=>{ExibeAcesso()},1000)

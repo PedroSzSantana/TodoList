@@ -152,7 +152,7 @@ function inicializaDom(){
             Criartarefa(linha.Tarefa,linha.id);
             //Adiciona novamente a classe 'completed' para tarefas completas
             if(linha.Status == 'completed'){
-                Div= document.querySelector('#Div'+linha.id);
+                Div = document.querySelector('#Div'+linha.id);
                 Div.classList.add('completed');
             }
         });
