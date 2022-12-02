@@ -1,0 +1,81 @@
+* {
+    scroll-behavior: smooth;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+body{
+    background: linear-gradient(to right, rgba(188, 85, 41, 0.82)40%, rgb(201, 77, 52)60%,rgba(79, 9, 76, 0.737)100%);
+}
+main{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.div_main{
+    background-color: rgba(255, 255, 255, 0.712);
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    border: solid 1px rgba(255, 255, 255, 0);
+    border-radius:10px;
+    width: 400px;
+}
+.div_inputs{
+    gap: 10px;
+}
+.inputs{
+    border-style: none;
+    border-bottom: solid 1px;
+    padding-left: 10px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.557);
+}
+.button_login{
+    border: solid 1px #FF5100;
+    border-radius: 10px;
+    background-color: #FF5100;
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+}
+.button_login:hover{
+    color:#ffff;
+    background-color: #f17d47;
+}
+.forma_login{
+    align-items: center;
+}
+.icon{
+    margin-top: 3px;
+    width: 30px;
+}
+.forma_login button{
+    cursor: pointer;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 150px;
+}
+.forma_login button:hover{
+    background-color: rgba(198, 202, 202, 0.726);
+}
+.footer{
+    align-items: center;
+    margin-top: 150px;
+}
+.footer a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+.footer a:hover{
+    text-underline-offset: 3px;
+    text-decoration: underline 1px;
+}
