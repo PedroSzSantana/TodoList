@@ -1,5 +1,5 @@
 ToDo-List
-Projeto Academico com foco em Jvascript.
+Projeto Academico com foco em Javascript.
 
 Criação de uma lista de tarefas utilizando Js para criação do dom,
 
